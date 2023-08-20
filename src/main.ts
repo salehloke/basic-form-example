@@ -3,11 +3,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { UntypedExampleComponent } from './untyped-example/untyped-example.component';
+import { TypedFormExampleComponent } from './typed-form-example/typed-form-example.component';
 
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [CommonModule, UntypedExampleComponent],
+  imports: [CommonModule, UntypedExampleComponent, TypedFormExampleComponent],
   templateUrl: './app.component.html',
 
   // template: `
